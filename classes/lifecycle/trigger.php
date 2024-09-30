@@ -136,7 +136,12 @@ class trigger extends base_automatic {
 
     public function extend_add_instance_form_definition($mform) {
         // To enter the student course restriction feed url.
-        $mform->addElement('text', 'courserestrictionfeed', get_string('courserestrictionfeed', 'tool_lcjsontrigger'));
+        $mform->addElement(
+            'text',
+            'courserestrictionfeed',
+            get_string('courserestrictionfeed', 'tool_lcjsontrigger'),
+            ['style' => 'width: 100%']
+        );
         $mform->setType('courserestrictionfeed', PARAM_URL);
         $mform->addRule('courserestrictionfeed', get_string('required'), 'required', null, 'client');
         $mform->addHelpButton('courserestrictionfeed', 'courserestrictionfeed', 'tool_lcjsontrigger');
