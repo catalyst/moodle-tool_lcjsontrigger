@@ -15,6 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 $string['pluginname'] = 'JSON feed trigger';
+$string['plugindescription'] = 'This trigger allows to trigger a lifecycle based on the response of a JSON feed.';
 $string['privacy:metadata'] = 'The plugin does not store any personal data.';
 
 // Settings.
