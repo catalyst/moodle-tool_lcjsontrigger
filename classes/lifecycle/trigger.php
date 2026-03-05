@@ -40,7 +40,7 @@ class trigger extends base_automatic {
     }
 
     public function get_plugin_description() {
-        return get_string("plugindescription", 'tool_lcjsontrigger');
+        return get_string('plugindescription', 'tool_lcjsontrigger');
     }
 
     public function check_course($course, $triggerid)
