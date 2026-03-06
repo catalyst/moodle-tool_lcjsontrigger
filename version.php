@@ -23,7 +23,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2023100400;
+$plugin->version   = 2026030600;
 $plugin->requires  = 2022041200;
 $plugin->component = 'tool_lcjsontrigger';
 
